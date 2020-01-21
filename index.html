@@ -5,21 +5,44 @@
 <title>地元マスコット　オケちゃん</title>
 <link rel="stylesheet" href="./style.css">
 <script src="1-1.js"></script>
+<script src="1-2.js"></script>
+<script src="ex1-1.js"></script>
+<script src="ex1-2.js"></script>
 </head>
-<body>
+<body bgcolor="#ffcdf">
 <h1>ベニバナの里桶川</h1>
 <a href="https://www.city.okegawa.lg.jp/index.html">
 <img src="./image/okegawasi.png" alt="桶川市ホームページ">
 </a>
 <p class="okecyan1">
 オケちゃんは桶川市のマスコットキャラクターで
-市の施行４０周年記念で誕生したべに。
-　ちょうど２０２０年で１０歳になるべにな<br>
+市の施行４０周年記念で誕生しました
+　ちょうど２０２０年で１０歳になります<br>
 </p>
 <p class="okecyan2">
 桶川の町は中山道の宿場町・桶川宿で江戸時代に
-とっても栄えたべに。さらに当時は全国二位の生
-産高の紅花があり紅花宿と言われていたべに
+とても栄えました。さらに当時は全国二位の生
+産高の紅花があり紅花宿と言われて
 生産高一位の最上紅花より早く収穫できて桶川臙脂
-の名でよくしられたべに
+の名でよくしられました</p>
+<h1>オケちゃん</h1>
+<input type="button" value="3秒で変更" onclick="ThreeSecChange();">
+  <img src='./image/okechan01-04.jpg' id="kyara" alt="okegawa kyara">
+</body>
+<h3>問題</h3>
+<p>オケちゃんの口癖は？</p>
+<p>
+答(ひらがな２文字):
+<input type="text" id="answer">
+<input type="button" value="解答"　onclick="mondai();">
+</p>
+
+<h4>ヒント</h4>
+<form name="timer">
+<input type="button" value="スタート" onclick="startfnc()">
+<br>
+<input type="text" name="moji" size="30"value=""></form>
+<form>
+
+<img src='./image/benibana.jpg'>
 </body>
