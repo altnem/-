@@ -1,3 +1,8 @@
-function mondai()
-{if(document.getElementById('answer').value=='べに'){
-    alert('当たりべに！');}}
+function mondai(){
+if(document.getElementById('answer').value=='べに'){
+alert('当たりべに！');
+}
+else{
+    alert('はずれべに！');
+}
+}
