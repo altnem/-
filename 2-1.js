@@ -1,8 +1,8 @@
-function mondai(){
+function nazo(){
 if(document.getElementById('answer').value=='べに'){
-alert('当たりべに！');
+alert('あたりべに！');
 }
-else{
+  else{
     alert('はずれべに！');
 }
 }

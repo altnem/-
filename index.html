@@ -6,8 +6,9 @@
 <link rel="stylesheet" href="./style.css">
 <script src="1-1.js"></script>
 <script src="1-2.js"></script>
-<script src="ex1-1.js"></script>
-<script src="ex1-2.js"></script>
+<script src="2-1.js"></script>
+<script src="2-2.js"></script>
+<script src="2-3.js"></script>
 </head>
 <body bgcolor="#ffcdf">
 <h1>ベニバナの里桶川</h1>
@@ -21,21 +22,18 @@
 </p>
 <p class="okecyan2">
 桶川の町は中山道の宿場町・桶川宿で江戸時代に
-とても栄えました。さらに当時は全国二位の生
-産高の紅花があり紅花宿と言われて
-生産高一位の最上紅花より早く収穫できて桶川臙脂
-の名でよくしられました</p>
+とても栄えました。さらに当時は全国二位の生産高の紅花があり紅花宿と言われて生産高一位の最上紅花より早く収穫できて桶川臙脂の名でよくしられました</p>
 <h1>オケちゃん</h1>
 <input type="button" value="3秒で変更" onclick="ThreeSecChange();">
   <img src='./image/okechan01-04.jpg' id="kyara" alt="okegawa kyara">
 </body>
-<h3>問題</h3>
-<p>オケちゃんの口癖は？</p>
-<p>
-答(ひらがな２文字):
-<input type="text" id="answer">
-<input type="button" value="解答"　onclick="nazo();">
-</p>
+
+<h4>なぞなぞ7-5</h4>
+  <p>オケちゃんの口癖は？</p>
+  <p>
+  答(ひらなが２文字で):<input type="text" id="answer">
+  <input type="button" value="解答" onclick="nazo();">
+  </p>
 
 <h4>ヒント</h4>
 <form name="timer">
@@ -43,6 +41,10 @@
 <br>
 <input type="text" name="moji" size="30"value=""></form>
 <form>
-
-<img src='./image/benibana.jpg'>
+<h5></h5>
+<div id="backimg"> 
+<input type="button" value="染めると？"onclick="ChangeImageAndBack();">
+<img src='./image/benibana.jpg'id="img" alt="benibana some" class="imagechange">
 </body>
+<!--https://saitama.denryu.jp/venue/show100/ ベニバナ染め画像-->
+<!--photAC　ベニバナ画像-->
