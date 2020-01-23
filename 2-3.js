@@ -2,7 +2,7 @@ function ChangeImageAndBack(){imgback();
 ThreeSecChange2();
 }
 function ThreeSecChange2(){
-  setTimeout("imgchange3()",3000);
+  setTimeout("imgchange3()",1500);
 }
 function imgchange3() {
   document.getElementById('img').src = './image/benibanazome.jpg';
